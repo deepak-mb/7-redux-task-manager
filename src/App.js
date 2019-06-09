@@ -14,7 +14,7 @@ class App extends Component {
       <Provider store={store}>
         <Router>
           <div className="bg-danger">
-            <Navbar />
+            <Route exact path="/" component={Navbar} />
           </div>
           <div className="App">
             <Switch>

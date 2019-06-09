@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="container bg-danger">
       <nav className="navbar navbar-expand-lg navbar-dark">
-        <Link to="/" className="navbar-brand" href="!#">
+        <Link to="/" className="navbar-brand">
           Task Manager
         </Link>
         <button
