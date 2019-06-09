@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/7-redux-task-manager/static/css/main.cfda8877.chunk.css",
-    "main.js": "/7-redux-task-manager/static/js/main.74ad8d4c.chunk.js",
-    "main.js.map": "/7-redux-task-manager/static/js/main.74ad8d4c.chunk.js.map",
+    "main.js": "/7-redux-task-manager/static/js/main.b8627fbd.chunk.js",
+    "main.js.map": "/7-redux-task-manager/static/js/main.b8627fbd.chunk.js.map",
     "runtime~main.js": "/7-redux-task-manager/static/js/runtime~main.7adda118.js",
     "runtime~main.js.map": "/7-redux-task-manager/static/js/runtime~main.7adda118.js.map",
     "static/js/2.f9259694.chunk.js": "/7-redux-task-manager/static/js/2.f9259694.chunk.js",
     "static/js/2.f9259694.chunk.js.map": "/7-redux-task-manager/static/js/2.f9259694.chunk.js.map",
     "index.html": "/7-redux-task-manager/index.html",
-    "precache-manifest.ac513207cb8f54af905e36c2bf8af197.js": "/7-redux-task-manager/precache-manifest.ac513207cb8f54af905e36c2bf8af197.js",
+    "precache-manifest.4cf727fffc1a3ac26cef7d3788ede94d.js": "/7-redux-task-manager/precache-manifest.4cf727fffc1a3ac26cef7d3788ede94d.js",
     "service-worker.js": "/7-redux-task-manager/service-worker.js",
     "static/css/main.cfda8877.chunk.css.map": "/7-redux-task-manager/static/css/main.cfda8877.chunk.css.map"
   }
