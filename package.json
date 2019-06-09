@@ -2,6 +2,7 @@
   "name": "7-react-task-manager",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://deepak-mb.github.io/7-redux-task-manager/",
   "dependencies": {
     "axios": "^0.19.0",
     "classnames": "^2.2.6",
@@ -16,6 +17,7 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
