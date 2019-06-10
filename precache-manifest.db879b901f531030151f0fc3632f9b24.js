@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4fab913f465a90066faac37b946756b7",
+    "revision": "c77455cca6af2f089acbac9e22c0e52e",
     "url": "/7-redux-task-manager/index.html"
   },
   {
-    "revision": "59e76aba4e7ceeed1352",
+    "revision": "c1b7214e5b38d15d837d",
     "url": "/7-redux-task-manager/static/css/main.cfda8877.chunk.css"
   },
   {
-    "revision": "bdc82097be88cc636115",
-    "url": "/7-redux-task-manager/static/js/2.f9259694.chunk.js"
+    "revision": "019f45ab372e66859083",
+    "url": "/7-redux-task-manager/static/js/2.e28ac4ff.chunk.js"
   },
   {
-    "revision": "59e76aba4e7ceeed1352",
-    "url": "/7-redux-task-manager/static/js/main.b8627fbd.chunk.js"
+    "revision": "c1b7214e5b38d15d837d",
+    "url": "/7-redux-task-manager/static/js/main.4fc62094.chunk.js"
   },
   {
     "revision": "22c8f0b5d6fdb97ff6c8",
