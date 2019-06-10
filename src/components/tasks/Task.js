@@ -9,7 +9,7 @@ class Task extends Component {
     this.props.deleteTask(id);
   };
   render() {
-    // console.log(this.props.task.title);
+    // console.log(this.props.task);
     const { id, title } = this.props.task;
     return (
       <div className="card my-1">

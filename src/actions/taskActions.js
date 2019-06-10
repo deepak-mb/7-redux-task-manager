@@ -31,6 +31,7 @@ export const addTask = task => async dispatch => {
   await axios
     .post(`https://jsonplaceholder.typicode.com/todos/`, task)
     .then(res => {
+      // console.log(res.data)
       dispatch({
         type: ADD_TASK,
         payload: res.data

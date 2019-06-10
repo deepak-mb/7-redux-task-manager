@@ -5,16 +5,16 @@ import { addTask } from "../../actions/taskActions";
 
 class AddTask extends Component {
   state = {
-    task: ""
+    title: ""
   };
   onChange = e => {
-    this.setState({ task: e.target.value });
+    this.setState({ title: e.target.value });
   };
   onSubmit = e => {
     e.preventDefault();
-    const { task } = this.state;
+    const { title } = this.state;
     const newTask = {
-      task: task
+      title: title
     };
     this.props.addTask(newTask);
     this.props.history.push("/");
@@ -31,7 +31,7 @@ class AddTask extends Component {
             <input
               type="text"
               className="form-control d-block w-100 my-2"
-              name="addtask"
+              name="title"
               placeholder="Enter task here..."
               onChange={this.onChange}
             />

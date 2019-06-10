@@ -13,7 +13,16 @@ class Tasks extends Component {
     // console.log(tasks);
     if (!tasks || tasks.length <= 0) {
       return (
-        <div>
+        <div
+          style={{
+            height: "100vh",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            flexDirection: "column"
+          }}
+        >
+          <h4 className="text-danger">Loading...</h4>
           <img
             src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"
             alt=""

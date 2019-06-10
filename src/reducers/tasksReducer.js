@@ -24,6 +24,7 @@ export default function(state = initialState, action) {
         tasks: state.tasks.filter(task => task.id !== action.payload)
       };
     case ADD_TASK:
+      // console.log(action.payload)
       return {
         ...state,
         tasks: [action.payload, ...state.tasks]

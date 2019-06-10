@@ -15,10 +15,11 @@ class EditTask extends Component {
   }
   componentWillReceiveProps(nextProps, nextState) {
     const { id, title } = nextProps.task;
+    // console.log(id, title);
     this.setState({ id: id, title: title });
   }
   onChange = e => {
-    this.setState({ title: e.target.value });
+    this.setState({ [e.target.name]: e.target.value });
   };
   onSubmit = e => {
     e.preventDefault();
@@ -28,12 +29,12 @@ class EditTask extends Component {
       id: id,
       title: title
     };
-    console.log(updTask);
+    // console.log(updTask);
     this.props.editTask(updTask);
     this.props.history.push("/");
   };
   render() {
-    const { id, title } = this.state;
+    const { title } = this.state;
     return (
       <div className="container">
         <h1 className="display-4">
@@ -45,14 +46,14 @@ class EditTask extends Component {
             <input
               type="text"
               className="form-control d-block w-100 my-2"
-              name="editTask"
+              name="title"
               placeholder="Enter task here..."
               onChange={this.onChange}
               value={title}
             />
             <input
               type="submit"
-              value="Add Task"
+              value="Edit Task"
               className="btn btn-success my-2"
             />
           </div>
